@@ -15,9 +15,8 @@ class ThanatosApp extends StatelessWidget {
       title: 'ThanatoX',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        // অ্যাপের প্রাইমারি কালার থিম (হালকা সবুজ)
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF2E7D6A)),
-        scaffoldBackgroundColor: const Color(0xFFC3D8C3), // ওয়েলকাম স্ক্রিনের ব্যাকগ্রাউন্ড
+        scaffoldBackgroundColor: const Color(0xFFC3D8C3), 
         textTheme: GoogleFonts.poppinsTextTheme(Theme.of(context).textTheme),
         useMaterial3: true,
       ),
